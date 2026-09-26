@@ -1,0 +1,11 @@
+# Netlify Configuration
+# Connects GitHub repository continuous deployment to publish directory
+
+[build]
+  publish = "Portffolio"
+  command = "cp -f index.html Portffolio/index.html && cp -f Portfo.css Portffolio/Portfo.css"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
