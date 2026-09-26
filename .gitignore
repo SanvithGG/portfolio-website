@@ -1,0 +1,6 @@
+# Backups & local agent directories
+designbackup/
+.agents/
+skills-lock.json
+.DS_Store
+Thumbs.db
