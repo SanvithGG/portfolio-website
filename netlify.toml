@@ -3,7 +3,6 @@
 
 [build]
   publish = "Portffolio"
-  command = "cp -f index.html Portffolio/index.html && cp -f Portfo.css Portffolio/Portfo.css"
 
 [[redirects]]
   from = "/*"
